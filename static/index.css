@@ -1,0 +1,187 @@
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVBAR AREA*/
+
+#navbar{
+    display: flex;
+    background-color: black;
+}
+
+#navimage img{
+    height: 50px;
+    filter: invert(1);
+}
+
+#navbar p {
+    color: white;
+    margin: 17px 16px;
+}
+
+#ultag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+#ultag li {
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+#ultag li a{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    position: relative;
+}
+
+#ultag li a::before{
+    content: "";
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+#ultag li a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* FIRST SECTION */
+
+#firstsection{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: url(/static/dance.jpg) no-repeat center/cover;
+
+}
+
+#firstsection h3{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 40px;
+
+}
+
+#firstsection h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 30px;
+}
+
+
+/* MISSION SECTION */
+#missionsection{
+    height: 300px;
+
+}
+
+#headingmissiondiv{
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+    justify-content: center;
+}
+
+#missionsectionmaindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    margin: 30px 7px;
+    border: 2px solid black;
+    background-color: rgb(255, 253, 253);
+    border-radius: 5px;
+    width: 400px;
+    height: 180px;
+    font-size: 20px;
+}
+
+.cardsincards{
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: bold;
+}
+
+.cardsinnercards{
+    display: flex;
+}
+
+.cardsinnercards img{
+    background: no-repeat;
+    height: 120px;
+}
+
+
+.cardsinnercards p{
+    margin: 30px 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    
+}
+
+
+
+/* SECOND SECTION */
+
+#secondsection{
+    height: 300px;
+    background-color:pink;
+}
+
+#secondsection h3{
+    padding-top: 14px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 25px;
+}
+
+#secondsectionh3{
+    display: flex;
+    justify-content: center;
+}
+
+#secondsectionmaindiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+#secondsectionmaindiv img{
+    height: 100px;
+    margin: 0px 20px;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: black;
+    color: rgb(223, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-family: 'Indie Flower', cursive;
+    
+}

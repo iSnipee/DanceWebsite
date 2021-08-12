@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1{
+    margin-top: 30px;
+}
+
+.form input{
+    width: 40%;
+    padding: 18px;
+    margin: 10px;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+button{
+    border: 2px solid green;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+    background-color: black;
+}
+
+button:hover{
+    background-color: rgb(37, 35, 35);
+    cursor: pointer;
+}
+#ultag li a{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    position: relative;
+}
+
+#ultag li a::before{
+    content: "";
+    background-color: lightgreen;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+#ultag li a:hover::before{
+    width: 100%;
+}
+
+
+footer{
+    position: relative;
+    top: 123px;
+}
+
+
